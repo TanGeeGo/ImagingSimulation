@@ -80,7 +80,7 @@ for h_index = tile_length/2 : tile_length : img_h/2
         for wave_index = 1:wave_num
             % load the PSF information, the wavelength varies from 400nm to 700nm
             wave_mat_path = strcat(fld_sample_prepath, '\wav_', ...
-                                   num2str(39 + wav_index, '%03d'), '.mat');
+                                   num2str(39 + wave_index, '%03d'), '.mat');
             wave_mat = load(wave_mat_path);
             wave_PSF = wave_mat.wav_PSF;
             wave_txt = wave_mat.wav_txt;
@@ -197,7 +197,7 @@ for h_index = tile_length/2 : tile_length : img_h/2
         save(strcat(PSF_cell_folder, 'PSF_cell_', ...
              num2str((img_h-h_index-5)/10+1, '%03d'), '_', ...
              num2str((img_w-w_index-5)/10+1, '%03d'), '.mat'), 'PSF_info');
-        % 输出标记信息
+        % print the final mark information
         formatSpec_final = strcat('response and illumination of (h:%d, w:%d); (h:%d, w:%d); ' , ...
                                     '(h:%d, w:%d); (h:%d, w:%d) is saved!\n');
         fprintf(formatSpec_final, h_index, w_index, ...
