@@ -1,1 +1,1 @@
-illumination information is saved in this folder
+illumination information in this folder
