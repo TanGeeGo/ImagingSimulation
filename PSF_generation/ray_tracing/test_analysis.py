@@ -7,7 +7,7 @@ import diffgausstrace as dg
 # load lens
 device = torch.device('cpu')
 dtype = torch.float64
-lens = dg.System('lens_file/honor20.txt', torch.float64, torch.device('cpu'))
+lens = dg.System('lens_file/doubleGauss.json', torch.float64, torch.device('cpu'))
 # define analysis
 views = torch.tensor([0., 10., 20., 30., 38.], dtype=dtype, device=device)
 wavelengths = torch.tensor([450.00e-6, 500.00e-6, 550.00e-6, 600.00e-6, 650.00e-6], dtype=dtype, device=device)
