@@ -1,0 +1,133 @@
+{   
+    "Description" : "DoubleGauss Zemax", 
+    "OBJECT": {
+        "index"   : 0,
+        "roc"     : 0.000000000000000E+000,
+        "distance": 0.000000000000000E+000,
+        "material": "vacuum",
+        "radius"  : 0.000000000000000E+000,
+        "conic"   : 0.000000000000000E+000,
+        "ai-terms": null,
+        "variable": null
+    },
+    "Standard1": {
+        "index"   : 1,
+        "roc"     : 5.415324616573791E+001,
+        "distance": 8.746657850000000E+000,
+        "material": "SK2",
+        "radius"  : 2.933920437194000E+001,
+        "conic"   : 0.000000000000000E+000,
+        "ai-terms": null,
+        "variable": ["c", "d"]
+    },
+    "Standard2": {
+        "index"   : 2,
+        "roc"     : 1.525219209401110E+002,
+        "distance": 5.000000000000000E-001,
+        "material": "vacuum",
+        "radius"  : 2.826658482256000E+001,
+        "conic"   : 0.000000000000000E+000,
+        "ai-terms": null,
+        "variable": ["c", "d"]
+    },
+    "Standard3": {
+        "index"   : 3,
+        "roc"     : 3.595062445048480E+001,
+        "distance": 1.400000000000000E+001,
+        "material": "SK16",
+        "radius"  : 2.435458095155000E+001,
+        "conic"   : 0.000000000000000E+000,
+        "ai-terms": null,
+        "variable": ["c", "d"]
+    },
+    "Standard4": {
+        "index"   : 4,
+        "roc"     : 0.000000000000000E+000,
+        "distance": 3.776965890000000E+000,
+        "material": "F5",
+        "radius"  : 2.135822601177000E+001,
+        "conic"   : 0.000000000000000E+000,
+        "ai-terms": null,
+        "variable": ["d"]
+    },
+    "Standard5": {
+        "index"   : 5,
+        "roc"     : 2.226992461800949E+001,
+        "distance": 1.425305930000000E+001,
+        "material": "vacuum",
+        "radius"  : 1.493283368295000E+001,
+        "conic"   : 0.000000000000000E+000,
+        "ai-terms": null,
+        "variable": ["c", "d"]
+    },
+    "STOP": {
+        "index"   : 6,
+        "roc"     : 0.000000000000000E+000,
+        "distance": 1.242812910000000E+001,
+        "material": "vacuum",
+        "radius"  : 1.000000000000000E+001,
+        "conic"   : 0.000000000000000E+000,
+        "ai-terms": null,
+        "variable": ["d"]
+    },
+    "Standard7": {
+        "index"   : 7,
+        "roc"     : -2.568503303046087E+001,
+        "distance": 3.776965890000000E+000,
+        "material": "F5",
+        "radius"  : 1.330133689386000E+001,
+        "conic"   : 0.000000000000000E+000,
+        "ai-terms": null,
+        "variable": ["c", "d"]
+    },
+    "Standard8": {
+        "index"   : 8,
+        "roc"     : 0.000000000000000E+000,
+        "distance": 1.083392850000000E+001,
+        "material": "SK16",
+        "radius"  : 1.662503180280000E+001,
+        "conic"   : 0.000000000000000E+000,
+        "ai-terms": null,
+        "variable": ["d"]
+    },
+    "Standard9": {
+        "index"   : 9,
+        "roc"     : -3.698022072863240E+001,
+        "distance": 5.000000000000000E-001,
+        "material": "vacuum",
+        "radius"  : 1.906148230444000E+001,
+        "conic"   : 0.000000000000000E+000,
+        "ai-terms": null,
+        "variable": ["c", "d"]
+    },
+    "Standard10": {
+        "index"   : 10,
+        "roc"     : 1.964173340965081E+002,
+        "distance": 6.858174910000000E+000,
+        "material": "SK16",
+        "radius"  : 2.147382942899000E+001,
+        "conic"   : 0.000000000000000E+000,
+        "ai-terms": null,
+        "variable": ["c", "d"]
+    },
+    "Standard11": {
+        "index"   : 11,
+        "roc"     : -6.714755002373626E+001,
+        "distance": 5.731453790500000E+001,
+        "material": "vacuum",
+        "radius"  : 2.179718377169000E+001,
+        "conic"   : 0.000000000000000E+000,
+        "ai-terms": null,
+        "variable": ["c", "d"]
+    },
+    "IMAGE": {
+        "index"   : 12,
+        "roc"     : 0.000000000000000E+000,
+        "distance": 0.000000000000000E+000,
+        "material": "vacuum",
+        "radius"  : 3.456914634886920E+001,
+        "conic"   : 0.000000000000000E+000,
+        "ai-terms": null,
+        "variable": ["d"]
+    }
+}
