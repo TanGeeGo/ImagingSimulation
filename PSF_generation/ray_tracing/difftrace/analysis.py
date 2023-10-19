@@ -2,7 +2,6 @@ import matplotlib.pyplot as plt
 import torch
 import numpy as np
 
-import diffgausstrace
 from .surfaces import *
 from .utils import lambda_d, pupil_distribution, fraunhofer
 from tqdm import tqdm
